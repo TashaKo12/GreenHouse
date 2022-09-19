@@ -1,0 +1,95 @@
+@import "./reset.css";
+
+@import "./../fonts/EuclidCircularB/stylesheet.css";
+
+html,
+body {
+  font-family: "Euclid Circular B", sans-serif;
+}
+
+.container {
+  max-width: 1230px;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
+/* Nav */
+.nav {
+  padding: 20px 0;
+}
+
+.nav__row {
+  display: flex;
+  column-gap: 80px;
+  align-items: center;
+}
+
+.nav__logo {
+}
+
+/* Logo */
+
+.logo {
+  font-weight: 500;
+  font-size: 24px;
+  color: #010101;
+}
+
+/* nav-list */
+
+.nav-list {
+  display: flex;
+  column-gap: 48px;
+  font-size: 14px;
+  font-weight: 500;
+  color: #656361;
+}
+
+.nav-list__item {
+}
+
+.nav-list__link {
+  color: #656361;
+}
+.nav-list__link:hover {
+  color: #0165c3;
+}
+.nav-list__link--active {
+  color: #0165c3;
+}
+
+.nav__signin {
+  margin-left: auto;
+}
+
+/* signin */
+
+.signin {
+  display: flex;
+  column-gap: 30px;
+  align-items: center;
+
+  font-size: 14px;
+  color: #656361;
+  font-weight: 500;
+}
+.signin__item {
+}
+.signin__link {
+  color: #656361;
+}
+
+.signin__link:hover {
+  color: #0165c3;
+}
+
+/* btn-signin */
+
+.btn-signin {
+  padding: 11px 35px;
+  background: rgba(1, 101, 195, 0.1);
+  border-radius: 50px;
+  font-size: 14px;
+  font-weight: 500;
+  color: #0165c3;
+}
